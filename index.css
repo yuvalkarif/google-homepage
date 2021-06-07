@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400&display=swap');
 :root {
-    background-color:lavender;
-    color:#2b2e4a;
-    color:#e84545;
+  background:#fff;
+    
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
   }
   body{
-    background:#fff;
+    
   }
   body .bar{
 align-items: flex-end;
@@ -18,10 +17,7 @@ align-items: flex-end;
       display:flex;
       flex-direction: row;
       justify-content:flex-end;
-      
-      
-      
-      
+ 
   }
   .bar ul a{
     text-decoration: none;
@@ -29,3 +25,72 @@ align-items: flex-end;
     padding: 0px 10px;
     
   }
+  .main{
+      
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+   
+    
+  }
+  .main img{
+    align-self: center;
+  }
+  .search{
+   
+     
+  }
+  form.search{
+      color: gray;
+     
+      
+  }
+  form.search input[type=text] {
+  color:black;
+  font-size: 30px;
+  border-width: 1px;
+  padding: 0px 60px;
+  border-radius: 25px;
+  border-color: rgb(187, 187, 187);
+  }
+  .main .material-icons{
+    display: flex;
+    align-items: center;
+    margin-top: -35px;
+    padding-left: 10px;
+    
+  }
+  
+  .main ul{
+    text-decoration: none;
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+    
+    
+  }
+  .main li{
+    padding: 10px;
+    
+    
+
+  }
+  .btn{
+  background: none;;
+  border: none; 
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  
+  padding-left: 500px;
+  margin-top: 5px;
+  }
+ .sbtn{
+  cursor: pointer; 
+  padding: 10px;
+  border-radius: 0px;
+  border: none;
+  color: rgb(54, 54, 54);
+ }
