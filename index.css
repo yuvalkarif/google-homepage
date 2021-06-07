@@ -21,7 +21,7 @@ align-items: flex-end;
   }
   .bar ul a{
     text-decoration: none;
-    color: black;
+    color: rgb(75, 75, 75);
     padding: 0px 10px;
     
   }
@@ -30,6 +30,7 @@ align-items: flex-end;
     display:flex;
     flex-direction:column;
     text-align: center;
+    margin-top: 200px;
    
     
   }
@@ -46,12 +47,14 @@ align-items: flex-end;
       
   }
   form.search input[type=text] {
+    display:block;
   color:black;
   font-size: 30px;
   border-width: 1px;
   padding: 0px 60px;
   border-radius: 25px;
   border-color: rgb(187, 187, 187);
+  border-style: solid;
   }
   .main .material-icons{
     display: flex;
@@ -77,6 +80,9 @@ align-items: flex-end;
     
 
   }
+  .main p{
+    font-size: 13px;
+  }
   .btn{
   background: none;;
   border: none; 
@@ -86,6 +92,7 @@ align-items: flex-end;
   
   padding-left: 500px;
   margin-top: 5px;
+  color: gray;
   }
  .sbtn{
   cursor: pointer; 
